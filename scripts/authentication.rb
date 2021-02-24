@@ -1,7 +1,6 @@
 puts "Adding: Devise as User"
 
-run "bundle add devise"
-run "bundle install"
+run "bundle add bcrypt devise"
 run "rails generate devise:install"
 run "rails generate devise:views"
 
