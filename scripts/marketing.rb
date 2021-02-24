@@ -77,7 +77,7 @@ inject_into_file "app/helpers/meta_tags_helper.rb" do <<~EOF
   EOF
 end
 
-gsub_file "app/views/layouts/application.html.haml", /(.*%title .*)/, "    = render 'layouts/seo'"
+gsub_file "app/views/layouts/application.html.erb", /(.*%title .*)/, "    = render 'layouts/seo'"
 
 git add: "."
 git commit: "-m 'SEO config'"

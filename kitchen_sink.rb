@@ -8,9 +8,11 @@ run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarke
 # Set up Configs
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/configs.rb'"
 
+# ISSUE
 # Install: Devise
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/authentication.rb'"
 
+# ISSUE
 # Install: Errors
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/errors.rb'"
 
@@ -20,6 +22,7 @@ run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarke
 # Marketing Pages and SEO"
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/marketing.rb'"
 
+# ISSUE
 # Set up staging site
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/staging.rb'"
 
