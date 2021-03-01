@@ -5,11 +5,14 @@ git commit: "-m 'Initial commit'"
 # Template: RSPEC, FactoryBot, Standard
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/testing.rb'"
 
+# Add Seeding setup
+run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/seeding.rb'"
+
 # Set up Configs
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/configs.rb'"
 
 # ISSUE
-# Install: Devise
+# Install: Authentication
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/authentication.rb'"
 
 # ISSUE
