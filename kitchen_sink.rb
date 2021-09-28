@@ -2,6 +2,8 @@
 git add: "."
 git commit: "-m 'Initial commit'"
 
+git checkout: "-b kitchen-sink"
+
 # Template: RSPEC, FactoryBot, Standard
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/testing.rb'"
 
