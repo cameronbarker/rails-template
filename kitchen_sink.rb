@@ -25,8 +25,6 @@ rails_command("db:migrate")
 git add: "."
 git commit: "-m 'DB Set Up'"
 
-
-
 # ISSUE
 # Add Seeding setup
 # run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/seeding.rb'"
