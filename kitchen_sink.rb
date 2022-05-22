@@ -10,19 +10,11 @@ run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarke
 # Set up Configs
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/configs.rb'"
 
-# ISSUE
-# Install: Errors
-run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/errors.rb'"
-
 # Set Up Heroku
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/heroku.rb'"
 
 # Marketing Pages and SEO"
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/marketing.rb'"
-
-# ISSUE
-# Set up staging site
-run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/staging.rb'"
 
 # Template: HAML
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/haml.rb'"
@@ -40,3 +32,7 @@ git commit: "-m 'DB Set Up'"
 # run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/seeding.rb'"
 # Install: Authentication
 # run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/authentication.rb'"
+# Install: Errors
+# run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/errors.rb'"
+# Set up staging site
+# run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/staging.rb'"
