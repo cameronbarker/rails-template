@@ -8,7 +8,7 @@ git checkout: "-b kitchen-sink"
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/testing.rb'"
 
 # Add Seeding setup
-run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/seeding.rb'"
+# run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/seeding.rb'"
 
 # Set up Configs
 run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/configs.rb'"
