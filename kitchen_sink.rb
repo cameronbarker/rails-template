@@ -15,7 +15,7 @@ run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarke
 
 # ISSUE
 # Install: Authentication
-run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/authentication.rb'"
+# run "rails app:template LOCATION='https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/scripts/authentication.rb'"
 
 # ISSUE
 # Install: Errors
