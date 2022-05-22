@@ -45,9 +45,9 @@ file 'db/seeds/99_summary.rb', <<-CODE
   puts
   puts 'Summary'
   puts '-----------------'
-  results.each do |k, v|
-    puts "#{k}: #{v}"
-  end
+  # results.each do |k, v|
+  #   puts "#{k}: #{v}"
+  # end
 CODE
 
 
