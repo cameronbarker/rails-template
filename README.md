@@ -1,5 +1,9 @@
-# ruby-snippets
-A place to make it easier to build at some point
+# Cameron's Rails Template
+A place to make it easier to build when you have an itch to jump in.
 
 
-`rails new APP_NAME -d postgresql -T -m https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/kitchen_sink.rb`
+`rails new APP_NAME -T -d postgresql -m https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/raw.rb`
+
+## Testing
+
+`rails new TestGenerator -T -C -J -d postgresql -m /Users/cameronbarker/Projects/ruby-snippets/raw.rb`
