@@ -52,6 +52,7 @@ after_bundle do
   puts "Adding: Devise as User"
 
   run "rails generate devise:install"
+  run "rails generate devise User"
   run "rails generate devise:views"
 
 
