@@ -2,7 +2,7 @@
 A place to make it easier to build when you have an itch to jump in.
 
 
-`rails new APP_NAME -T -d postgresql -m https://raw.githubusercontent.com/cameronbarker/ruby-snippets/main/raw.rb`
+`rails new APP_NAME -T -d postgresql -m https://raw.githubusercontent.com/cameronbarker/rails-template/main/template.rb`
 
 ## Testing
 
