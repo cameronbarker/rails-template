@@ -23,6 +23,8 @@ end
 
 
 after_bundle do
+  rails_command "db:create"
+  
   # RSPEC
   rails_command "generate rspec:install"
   run "rm -rf test"
