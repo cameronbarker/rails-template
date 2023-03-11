@@ -310,7 +310,7 @@ after_bundle do
 
   puts "Install HAML and convert"
   rake "haml:replace_erbs"
-  
+  rake "rake db:migrate"
   rake "rake db:setup"
   
   run 'bundle exec standardrb --fix'
